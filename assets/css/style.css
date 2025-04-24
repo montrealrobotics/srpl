@@ -188,6 +188,7 @@ h3 {
     margin-bottom: 0.8em;
     font-size: 1.5em;
     font-weight: 500;
+    text-align: center;
 }
 
 /* Make the main text more readable */
@@ -196,6 +197,10 @@ p {
     line-height: 1.6;
     margin-bottom: 1.2em;
     font-size: 1.1em;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style links within text */
@@ -208,4 +213,31 @@ p a {
 
 p a:hover {
     border-bottom-color: #155799;
+}
+
+/* Center all main content */
+.main-content {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Lists styling */
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+/* Citation section */
+.citation {
+    text-align: center;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background: #f8f9fa;
+    border-radius: 8px;
 } 

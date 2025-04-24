@@ -83,6 +83,7 @@
 
 ## Citation
 
+<div class="citation">
 If you find this work useful, please cite:
 
 ```bibtex
@@ -92,4 +93,5 @@ If you find this work useful, please cite:
   journal={arXiv preprint arXiv:2502.20341},
   year={2024}
 }
-``` 
+```
+</div> 
