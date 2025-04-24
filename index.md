@@ -39,20 +39,34 @@ title: Safety Representations for Safer Policy Learning
 
 [Add your motivation text here]
 
-![Motivation Figure](assets/ripl_islandnav.png)
+<div class="figure-container">
+    ![Motivation Figure](assets/motivation_figure.png)
+    <div class="figure-caption">Figure 1: Motivation and overview of our approach.</div>
+</div>
 
 ## Safety Representations
 
 [Add your safety representations text here]
 
-![Safety Representation Figure 1](assets/ripl_risk_island.png)
-![Safety Representation Figure 2](assets/ripl_framework.png)
+<div class="figure-row">
+    <div class="figure-container">
+        ![Safety Representation Figure 1](assets/safety_rep_fig1.png)
+        <div class="figure-caption">Figure 2: Safety representation learning.</div>
+    </div>
+    <div class="figure-container">
+        ![Safety Representation Figure 2](assets/safety_rep_fig2.png)
+        <div class="figure-caption">Figure 3: Safety representation analysis.</div>
+    </div>
+</div>
 
 ## Improved Sample Efficiency and Safety
 
 [Add your improved sample efficiency and safety text here]
 
-![Sample Efficiency Figure](assets/ripl_constrained_mdps_main.png)
+<div class="figure-container">
+    ![Sample Efficiency Figure](assets/sample_efficiency_figure.png)
+    <div class="figure-caption">Figure 4: Sample efficiency results.</div>
+</div>
 
 
 ## Transferrable Representations

@@ -111,4 +111,49 @@
 
 .paper-link[href*="github"]:hover {
     background: linear-gradient(120deg, #126abc, #16a75c);
+}
+
+/* Figure styling */
+.figure-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.figure-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* For side-by-side figures */
+.figure-row {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.figure-row .figure-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+    margin: 1em;
+}
+
+/* Figure captions */
+.figure-caption {
+    margin-top: 1em;
+    color: #666;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
 } 
