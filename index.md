@@ -35,7 +35,7 @@
 [Add your motivation text here]
 
 <div class="figure-container">
-    ![Motivation Figure](assets/ripl_islandnav.png)
+    <img src="assets/ripl_islandnav.png" alt="Motivation Figure">
     <div class="figure-caption">Figure 1: Motivation and overview of our approach.</div>
 </div>
 
@@ -45,11 +45,11 @@
 
 <div class="figure-row">
     <div class="figure-container">
-        ![Safety Representation Figure 1](assets/ripl_risk_island.png)
+        <img src="assets/ripl_risk_island.png" alt="Safety Representation Figure 1">
         <div class="figure-caption">Figure 2: Safety representation learning.</div>
     </div>
     <div class="figure-container">
-        ![Safety Representation Figure 2](assets/ripl_framework.png)
+        <img src="assets/ripl_framework.png" alt="Safety Representation Figure 2">
         <div class="figure-caption">Figure 3: Safety representation analysis.</div>
     </div>
 </div>
@@ -59,7 +59,7 @@
 [Add your improved sample efficiency and safety text here]
 
 <div class="figure-container">
-    ![Sample Efficiency Figure](assets/ripl_constrained_mdps_main.png)
+    <img src="assets/ripl_constrained_mdps_main.png" alt="Sample Efficiency Figure">
     <div class="figure-caption">Figure 4: Sample efficiency results.</div>
 </div>
 
@@ -70,13 +70,13 @@
 
 
 <div class="figure-container">
-    ![Transfer Across Tasks](assets/ripl_transfer.png)
+    <img src="assets/ripl_transfer.png" alt="Transfer Across Tasks">
     <div class="figure-caption">Figure 5: Transferring safety representation across tasks.</div>
 </div>
 
 
 <div class="figure-container">
-    ![Transfer Across constraints](assets/ripl_across_cost_thresholds.png)
+    <img src="assets/ripl_across_cost_thresholds.png" alt="Transfer Across constraints">
     <div class="figure-caption">Figure 6: Transferring safety representation across constraint thresholds.</div>
 </div>
 

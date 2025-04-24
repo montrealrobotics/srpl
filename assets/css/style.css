@@ -156,4 +156,56 @@
     font-style: italic;
     font-size: 0.9em;
     text-align: center;
+}
+
+/* Section headings styling */
+h2 {
+    color: #155799;  /* Cayman's primary blue */
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.5em;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #155799, #159957);
+    border-radius: 2px;
+}
+
+h3 {
+    color: #166a5c;  /* A mix of Cayman's blue and green */
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/* Make the main text more readable */
+p {
+    color: #24292e;
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+    font-size: 1.1em;
+}
+
+/* Style links within text */
+p a {
+    color: #155799;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+p a:hover {
+    border-bottom-color: #155799;
 } 
