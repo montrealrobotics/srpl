@@ -1,26 +1,16 @@
-/* Override Cayman theme's header */
-.page-header {
-    display: none;
-}
-
-/* Remove top margin from main content */
-.main-content {
-    padding: 0;
-    margin: 0;
-}
-
-/* Paper header styling */
 .paper-header {
     text-align: center;
+    margin: 2em 0;
     padding: 2em 0;
-    margin-bottom: 2em;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-radius: 10px;
 }
 
 .paper-title {
     font-size: 2.5em;
     font-weight: 700;
-    margin: 0 0 0.5em 0;  /* Remove top margin */
-    color: white;
+    margin-bottom: 0.5em;
+    color: #2c3e50;
 }
 
 .paper-description {
@@ -250,35 +240,4 @@ ul, ol {
     padding: 1em;
     background: #f8f9fa;
     border-radius: 8px;
-}
-
-/* Remove any default margins and padding */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Hide the default header and title */
-.page-header, 
-.project-name, 
-.project-tagline {
-    display: none !important;
-}
-
-/* Ensure main content starts at the top */
-.main-content {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* Paper header should be the first thing */
-.paper-header {
-    margin-top: 0 !important;
-    padding-top: 2em;
-}
-
-/* Hide any potential auto-generated titles */
-.main-content h1:first-child,
-.main-content h1:first-of-type {
-    display: none;
 } 
