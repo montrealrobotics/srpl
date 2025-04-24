@@ -12,11 +12,8 @@
 /* Paper header styling */
 .paper-header {
     text-align: center;
-    margin: 0;  /* Remove top margin */
     padding: 2em 0;
-    background: linear-gradient(120deg, #155799, #159957);
-    color: white;
-    width: 100%;
+    margin-bottom: 2em;
 }
 
 .paper-title {

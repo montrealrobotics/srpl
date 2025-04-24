@@ -1,5 +1,5 @@
-# title: ""  # Empty title to prevent theme header
-# description: ""  # Empty description to prevent theme header
+title: "Safety Representations for Safer Policy Learning"
+description: "Learning state-centric safety representations to enable safer and more efficient reinforcement learning through improved risk-reward tradeoffs."
 theme: jekyll-theme-cayman
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
@@ -10,7 +10,7 @@ github: [metadata]
 repository: montrealrobotics/srpl
 branch: main
 
-# links:
-#   arxiv: https://arxiv.org/pdf/2502.20341
-#   code: https://github.com/montrealrobotics/srpl/
+links:
+  arxiv: https://arxiv.org/pdf/2502.20341
+  code: https://github.com/montrealrobotics/srpl/
   # video: https://www.youtube.com/watch?v=oH99fd_462Q
