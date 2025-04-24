@@ -1,16 +1,29 @@
+/* Override Cayman theme's header */
+.page-header {
+    display: none;
+}
+
+/* Remove top margin from main content */
+.main-content {
+    padding: 0;
+    margin: 0;
+}
+
+/* Paper header styling */
 .paper-header {
     text-align: center;
-    margin: 2em 0;
+    margin: 0;  /* Remove top margin */
     padding: 2em 0;
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
-    border-radius: 10px;
+    background: linear-gradient(120deg, #155799, #159957);
+    color: white;
+    width: 100%;
 }
 
 .paper-title {
     font-size: 2.5em;
     font-weight: 700;
-    margin-bottom: 0.5em;
-    color: #2c3e50;
+    margin: 0 0 0.5em 0;  /* Remove top margin */
+    color: white;
 }
 
 .paper-description {
