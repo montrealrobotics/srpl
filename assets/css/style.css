@@ -253,4 +253,35 @@ ul, ol {
     padding: 1em;
     background: #f8f9fa;
     border-radius: 8px;
+}
+
+/* Remove any default margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide the default header and title */
+.page-header, 
+.project-name, 
+.project-tagline {
+    display: none !important;
+}
+
+/* Ensure main content starts at the top */
+.main-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Paper header should be the first thing */
+.paper-header {
+    margin-top: 0 !important;
+    padding-top: 2em;
+}
+
+/* Hide any potential auto-generated titles */
+.main-content h1:first-child,
+.main-content h1:first-of-type {
+    display: none;
 } 
