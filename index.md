@@ -6,8 +6,6 @@ title: Safety Representations for Safer Policy Learning
 <link rel="stylesheet" href="assets/css/style.css">
 
 <div class="paper-header">
-    <h1 class="paper-title">Safety Representations for Safer Policy Learning</h1>
-    
     <p class="paper-description">
         Learning state-centric safety representations to enable safer and more efficient reinforcement learning through improved risk-reward tradeoffs.
     </p>
@@ -20,11 +18,19 @@ title: Safety Representations for Safer Policy Learning
         <div class="author"><a href="https://samernashed.github.io/">Samer Nashed</a></div>
         <div class="author"><a href="https://liampaull.ca/">Liam Paull</a></div>
     </div>
+
+    <div class="paper-links">
+        <a href="https://arxiv.org/pdf/2502.20341" class="paper-link">
+            <i class="fas fa-file-pdf"></i> Paper
+        </a>
+        <a href="https://github.com/montrealrobotics/srpl/" class="paper-link">
+            <i class="fab fa-github"></i> Code
+        </a>
+        <a href="#" class="paper-link disabled">
+            <i class="fas fa-video"></i> Video (Coming Soon)
+        </a>
+    </div>
 </div>
-
-# Safety Representations for Safer Policy Learning
-
-Learning state-centric safety representations to enable safer and more efficient reinforcement learning through improved risk-reward tradeoffs.
 
 ## Motivation
 
