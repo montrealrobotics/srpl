@@ -8,6 +8,8 @@ layout: default
         Learning state-centric safety representations to enable safer and more efficient reinforcement learning through improved risk-reward tradeoffs.
     </p>
 
+    <p class="conference-name">ICLR 2025</p>
+
     <div class="authors-list">
         <div class="author"><a href="https://github.com/manila95">Kaustubh Mani</a></div>
         <div class="author"><a href="https://scholar.google.ca/citations?user=62a5KoUAAAAJ&hl=en">Vincent Mai</a></div>

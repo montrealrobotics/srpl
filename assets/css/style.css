@@ -1,14 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f5f9fc, #f5fcf9);
+    
+    /* Option 2: Light warm gray */
+    /* background-color: #f7f7f7; */
+    
+    /* Option 3: Very light blue with a hint of purple */
+    /* background-color: #f5f7fa; */
+    
+    /* Option 4: Super light gradient */
+    /* background: linear-gradient(to bottom right, #f8f9fa, #e9ecef); */
+    
+    /* Option 5: Very light teal to match Cayman theme */
+    /* background: linear-gradient(120deg, #f5f9fc, #f5fcf9); */
+}
+
+.main-content {
+    margin: 0;
+    padding: 0;
+}
+
 .paper-header {
     text-align: center;
-    margin: 2em 0;
+    margin: 0;
     padding: 2em 0;
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    background: linear-gradient(120deg, #155799, #159957);
+    color: white;
     border-radius: 10px;
 }
 
 .paper-title {
     font-size: 2.5em;
     font-weight: 700;
+    margin-top: 0;
+    padding-top: 0;
     margin-bottom: 0.5em;
     color: #2c3e50;
 }
@@ -240,4 +266,12 @@ ul, ol {
     padding: 1em;
     background: #f8f9fa;
     border-radius: 8px;
+}
+
+.conference-name {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+    margin: 1.5em 0;
+    opacity: 0.9;
 } 
