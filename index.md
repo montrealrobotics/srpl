@@ -34,7 +34,8 @@ layout: default
 
 ## Motivation
 
-[Add your motivation text here]
+Traditional safe RL methods penalize constraint violations, often leading to overly conservative behavior and poor exploration. This limits representation learning and degrades performance. We address this by learning state-centric safety representations from experience, enabling smarter exploration and better risk-reward tradeoffs.
+
 
 <div class="figure-container">
     <img src="assets/ripl_islandnav.png" alt="Motivation Figure">
@@ -43,7 +44,8 @@ layout: default
 
 ## Safety Representations
 
-[Add your safety representations text here]
+We train a neural network to estimate a distribution over future constraint violations from each state, using past trajectories as supervision. This distributional prediction captures not just the expected risk, but also the uncertainty and tail behavior of potential violations. We extract a learned safety representation from this distribution and augment the policy’s state input with it, enabling safety-aware and risk-sensitive decision making while optimizing reward.
+
 
 <div class="figure-row">
     <div class="figure-container">
@@ -58,7 +60,8 @@ layout: default
 
 ## Improved Sample Efficiency and Safety
 
-[Add your improved sample efficiency and safety text here]
+We evaluate our approach on four continuous control tasks from the Safety Gymnasium benchmark. Across all environments, augmenting standard RL algorithms with our learned safety representations leads to faster constraint satisfaction, fewer safety violations, and improved sample efficiency. Our method also achieves a better risk-reward tradeoff, enabling agents to reach high task performance with significantly lower safety costs.
+
 
 <div class="figure-container">
     <img src="assets/ripl_constrained_mdps_main.png" alt="Sample Efficiency Figure">
@@ -68,7 +71,8 @@ layout: default
 
 ## Transferrable Representations
 
-[Add your transferrable representations text here]
+Because the safety representation is learned in a state-centric and policy-agnostic way, it generalizes across tasks with similar dynamics. We show that a representation trained on PointButton1 can be transferred zero-shot to PointGoal1, resulting in immediate reductions in safety violations and faster policy learning. With minimal fine-tuning, the transferred representation further improves performance, highlighting its effectiveness in reusing safety knowledge across tasks.
+
 
 
 <div class="figure-container">
@@ -77,23 +81,22 @@ layout: default
 </div>
 
 
+
+<!-- 
 <div class="figure-container">
     <img src="assets/ripl_across_cost_thresholds.png" alt="Transfer Across constraints">
     <div class="figure-caption">Figure 6: Transferring safety representation across constraint thresholds.</div>
-</div>
+</div> -->
 
 
 ## Citation
-
-<div class="citation">
 If you find this work useful, please cite:
 
 ```bibtex
-@article{mani2024safety,
+@article{mani2025safety,
   title={Safety Representations for Safer Policy Learning},
-  author={Mani, Kaustubh and Mai, Vincent and Gauthier, Charlie and Chen, Annie S and Nashed, Samer and Paull, Liam},
+  author={Mani, Kaustubh and Mai, Vincent and Gauthier, Charlie and Chen, Annie and Nashed, Samer and Paull, Liam},
   journal={arXiv preprint arXiv:2502.20341},
-  year={2024}
+  year={2025}
 }
 ```
-</div> 
