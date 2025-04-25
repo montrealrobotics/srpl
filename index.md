@@ -39,7 +39,7 @@ Traditional safe RL methods penalize constraint violations, often leading to ove
 
 <div class="figure-container">
     <img src="assets/ripl_islandnav.png" alt="Motivation Figure">
-    <div class="figure-caption">Figure 1: Motivation and overview of our approach.</div>
+    <div class="figure-caption">Figure 1: Traditional RL methods fail to learn accurate representations of safety resulting in conservative policies. Adding information about safety of the state (GT safety: Manhattan distance to the closes failure state) prevents this conservative behavior.</div>
 </div>
 
 ## Safety Representations
@@ -50,22 +50,22 @@ We train a neural network to estimate a distribution over future constraint viol
 <div class="figure-row">
     <div class="figure-container">
         <img src="assets/ripl_risk_island.png" alt="Safety Representation Figure 1">
-        <div class="figure-caption">Figure 2: Safety representation learning.</div>
+        <div class="figure-caption">Figure 2: Safety representations.</div>
     </div>
     <div class="figure-container">
-        <img src="assets/ripl_framework.png" alt="Safety Representation Figure 2">
-        <div class="figure-caption">Figure 3: Safety representation analysis.</div>
+        <img src="assets/SRPL_diagram.png" alt="Safety Representation Figure 2">
+        <div class="figure-caption">Figure 3: SRPL Framework.</div>
     </div>
 </div>
 
 ## Improved Sample Efficiency and Safety
 
-We evaluate our approach on four continuous control tasks from the Safety Gymnasium benchmark. Across all environments, augmenting standard RL algorithms with our learned safety representations leads to faster constraint satisfaction, fewer safety violations, and improved sample efficiency. Our method also achieves a better risk-reward tradeoff, enabling agents to reach high task performance with significantly lower safety costs.
+We evaluate our approach on four continuous control tasks covering locomotion, manipulation and navigation. Across all environments, augmenting standard RL algorithms with our learned safety representations leads to faster constraint satisfaction, fewer safety violations, and improved sample efficiency. Our method also achieves a better risk-reward tradeoff, enabling agents to reach high task performance with significantly lower safety costs.
 
 
 <div class="figure-container">
     <img src="assets/ripl_constrained_mdps_main.png" alt="Sample Efficiency Figure">
-    <div class="figure-caption">Figure 4: Sample efficiency results.</div>
+    <div class="figure-caption">Figure 4: Safety and Sample efficiency results.</div>
 </div>
 
 
@@ -77,7 +77,7 @@ Because the safety representation is learned in a state-centric and policy-agnos
 
 <div class="figure-container">
     <img src="assets/ripl_transfer.png" alt="Transfer Across Tasks">
-    <div class="figure-caption">Figure 5: Transferring safety representation across tasks.</div>
+    <div class="figure-caption">Figure 5: Transferring safety representations across tasks.</div>
 </div>
 
 
