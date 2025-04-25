@@ -22,12 +22,11 @@ body {
 }
 
 .paper-header {
-    text-align: center;
     margin: 0;
     padding: 2em 0;
-    background: linear-gradient(120deg, #155799, #159957);
+    background: linear-gradient(120deg, #155799, #159957);  /* Restore original Cayman gradient */
     color: white;
-    border-radius: 10px;
+    text-align: center;
 }
 
 .paper-title {
@@ -274,4 +273,7 @@ ul, ol {
     color: white;
     margin: 1.5em 0;
     opacity: 0.9;
+    text-align: center;  /* Ensure conference name is centered */
+    display: block;      /* Make it a block element */
+    width: 100%;        /* Full width to ensure center alignment */
 } 
