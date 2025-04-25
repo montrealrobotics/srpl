@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="paper-header">
-    <!-- <h1 class="paper-title">Safety Representations for Safer Policy Learning</h1>
+    <h1 class="paper-title">Safety Representations for Safer Policy Learning</h1>
     
     <p class="paper-description">
         Learning state-centric safety representations to enable safer and more efficient reinforcement learning through improved risk-reward tradeoffs.
-    </p> -->
+    </p>
 
     <div class="authors-list">
         <div class="author"><a href="https://github.com/manila95">Kaustubh Mani</a></div>
